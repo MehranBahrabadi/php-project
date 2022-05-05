@@ -30,7 +30,7 @@
                 ?>
                 <section class="col-md-4">
                     <section class="mb-2 overflow-hidden" style="max-height: 15rem;">
-                    <img class="img-fluid" src="<?= asset($post->image) ?>" alt="" height="200" width="150">
+                    <img class="img-fluid poster" src="<?= asset($post->image) ?>" alt="" height="200" width="150">
                 </section>
                     <h2 class="h5 text-truncate"><?= $post->title ?></h2>
                     <p><?= substr($post->body,0,80) ?></p>
